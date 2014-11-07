@@ -1,0 +1,15 @@
+{
+  "name": "webdriverjs-jasmine",
+  "version": "1.0.0",
+  "description": "This example requires setting up selenium on another server/VM. First run the selenium server on the remote machine:",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tape": "^3.0.2",
+    "webdriverio": "^2.3.0"
+  }
+}

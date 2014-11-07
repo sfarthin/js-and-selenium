@@ -1,0 +1,15 @@
+{
+  "name": "mocha-phantomjs",
+  "version": "0.0.0",
+  "scripts": {
+	"build": "browserify app.js > build/app.js && browserify app2.js > build/app2.js",
+    "test": "browserify tests/*.js > build/tests.js && ./node_modules/karma/bin/karma start"
+  },
+  "dependencies": {
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma": "^0.12.24",
+    "browserify": "^4.0.0",
+    "moment": "^2.8.3",
+    "karma-jasmine": "^0.2.3"
+  }
+}

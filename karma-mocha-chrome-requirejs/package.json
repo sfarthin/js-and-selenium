@@ -1,0 +1,20 @@
+{
+  "name": "mocha-chrome-requirejs",
+  "version": "0.0.0",
+  "description": "",
+  "main": "config.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "karma-chrome-launcher": "^0.1.5",
+    "karma": "^0.12.24",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^0.1.9",
+    "chai": "^1.9.2",
+    "mocha": "^2.0.1",
+    "karma-requirejs": "^0.2.2"
+  }
+}
