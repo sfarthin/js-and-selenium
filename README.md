@@ -1,6 +1,6 @@
 # Using Selenium to run javascript tests
 
-This repository hold examples that demonstrate the different ways selenium can be used to test your javascript in the browser.
+Examples of the different ways selenium can be used to test your javascript in the browser
 
 There is a dedicated package.json in each folder. Only the webdriverjs-tape-remoteIE needs selenium server needs the selenium server to be run before executing. The rest of the examples you can simply run these commands to see it in action:
 
